@@ -123,6 +123,24 @@ h1 {
   font-size: 7rem;
 }
 
+#flex-tools{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;  
+  margin: 5rem;
+}
+
+.single-tool img {
+  width: 120px;
+  padding: 1rem;
+}
+
+.small img{
+  width: 160px;
+}
+ 
+
 #projects {
   position: relative;
   padding-top: 10rem;
@@ -264,9 +282,22 @@ footer {
   #header .logo h3 {
     display: none;
   }
+
+  #flex-tools{
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+  .single-tool img{
+    width: 100px;
+  }
+
+  .small img{
+    width: 140px;
+  }
+
   #projects-grid{
     padding-left: 1rem;
-    padding-right: 1rem;
   }
   
 }
