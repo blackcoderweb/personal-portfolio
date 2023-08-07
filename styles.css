@@ -262,6 +262,10 @@ footer {
   text-align: center;
 }
 
+footer span{
+  color: var(--orangered-color)
+}
+
 @media only screen and (max-width: 900px) {
   h1 {
     text-align: center;
